@@ -1,0 +1,22 @@
+.headerdiv{
+    display: inline-block;
+    object-position: top;
+    border: 2px dotted;
+    width: calc(100vw - 15px);
+}
+.nametab{
+    position: absolute;
+    top: 50px;
+}
+.headerdiv a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.bodydiv a{
+    color: lightblue;
+    text-decoration: none;
+}
