@@ -7,6 +7,16 @@
 .nametab{
     position: absolute;
     top: 50px;
+    left: 370px;
+}
+.githubtab{
+    position: absolute;
+    top: 50px;
+    left: 270px;
+}
+.projectstab{
+    position: absolute;
+    top: 50px;
 }
 .headerdiv a{
     color: white;
