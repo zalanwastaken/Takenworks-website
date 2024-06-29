@@ -1,0 +1,50 @@
+.nametab{
+    position: absolute;
+    top: 50px;
+    left: 370px;
+}
+.githubtab{
+    position: absolute;
+    top: 50px;
+    left: 270px;
+}
+.projectstab{
+    position: absolute;
+    top: 50px;
+}
+.headerdiv a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.headerdiv{
+    display: inline-block;
+    object-position: top;
+    border: 2px dotted;
+    width: calc(100vw - 15px);
+    border-radius: 45px;
+}
+#nameheading{
+    transition: all 1s;
+    font-size: large;
+}
+#nameheading:hover{
+    font-size: 64px;
+}
+#headingnametag{
+    font-size: x-large;
+    transition: inherit;
+}
+#headingnametag:hover{
+    font-size: inherit;
+}
+.specialwords{
+    transition: font-size 1s;
+}
+.specialwords:hover{
+    font-size: x-large;
+}
+a {
+    text-decoration: none;
+    color: cyan;
+}

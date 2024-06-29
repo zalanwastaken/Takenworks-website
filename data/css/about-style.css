@@ -3,6 +3,7 @@
     object-position: top;
     border: 2px dotted;
     width: calc(100vw - 15px);
+    border-radius: 45px;
 }
 .nametab{
     position: absolute;
