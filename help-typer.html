@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://devzalanwastaken.neocities.org/help-typer -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Command Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Command Documentation</h1>
+    <p>This documentation provides details about the available commands, their usage, and exit codes.</p>
+
+    <h2>Enabled Commands</h2>
+    <pre>    local enabledcommands = {
+        ["open"] = true,
+        ["exit"] = true,
+        ["dev"] = false,
+        ["find"] = false,
+        ["pls"] = true,
+        ["alias"] = true
+    }
+    </pre>
+
+    <h2>Command Descriptions</h2>
+
+    <h3>open</h3>
+    <p>Opens a file from the saves directory and initializes it.</p>
+    <pre><code>Usage:
+open &lt;filename&gt;
+
+Example:
+open example_save.txt
+    </code></pre>
+
+    <h3>exit</h3>
+    <p>Exits the application or switches to a default save file.</p>
+    <pre><code>Usage:
+exit [--typer]
+
+Example:
+exit --typer
+    </code></pre>
+
+    <h3>dev</h3>
+    <p>Enables or disables developer mode.</p>
+    <pre><code>Usage:
+dev enable | disable
+
+Example:
+dev enable
+dev disable
+    </code></pre>
+
+    <h3>find (broken)</h3>
+    <p>Searches for a word in the default save data (currently broken).</p>
+    <pre><code>Usage:
+find &lt;word&gt;
+
+Example:
+find hello
+    </code></pre>
+
+    <h3>pls</h3>
+    <p>Forces execution of a command even if it is not enabled.</p>
+    <pre><code>Usage:
+pls &lt;command&gt; [args]
+
+Example:
+pls open example_save.txt
+    </code></pre>
+
+    <h3>alias</h3>
+    <p>Creates an alias for a command. The alias can optionally be disabled upon creation.</p>
+    <pre><code>Usage:
+alias &lt;existing_command&gt; &lt;alias_name&gt; [--disable]
+
+Example:
+alias open load
+alias open load --disable
+    </code></pre>
+
+    <h2>Exit Codes</h2>
+    <pre><code>0 == exited successfully <br>1 == general error(Check command output message) <br>2 == not implemented
+    </code></pre>
+
+
+</body></html>
