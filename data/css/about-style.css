@@ -31,3 +31,9 @@ body::-webkit-scrollbar {
     color: lightblue;
     text-decoration: none;
 }
+.enlargeongiver{
+    transition: font-size, 2s;
+}
+.enlargeongiver:hover{
+    font-size: 32px;
+}
